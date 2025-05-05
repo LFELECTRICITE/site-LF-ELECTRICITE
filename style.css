@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff8f0;
+  color: #333;
+}
+
+header {
+  background-color: #fca311;
+  color: #000;
+  text-align: center;
+  padding: 30px 10px;
+}
+
+.logo {
+  max-width: 200px;
+  height: auto;
+}
+
+.services, .contact {
+  padding: 20px;
+  background-color: #fff;
+}
+
+h1, h2 {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: square;
+  padding-left: 20px;
+}
+
+a {
+  color: #fca311;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #eee;
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+}
