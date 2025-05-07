@@ -60,11 +60,12 @@
     <h2>Contact</h2>
     <p>Téléphone : <a href="tel:0668157105">06 68 15 71 05</a></p>
     <p>Email : <a href="mailto:lfelectricite33@gmail.com">lfelectricite33@gmail.com</a></p>
-    <form name="contact" method="POST" data-netlify="true" class="contact-form">
-      <input type="text" name="nom" placeholder="Votre nom" required>
-      <input type="email" name="email" placeholder="Votre email" required>
-      <textarea name="message" placeholder="Votre message" rows="5" required></textarea>
-      <button type="submit">Envoyer</button>
+   <form name="contact" method="POST" data-netlify="true">
+  <input type="hidden" name="form-name" value="contact">
+  input type="text" name="nom" placeholder="Votre nom" required>
+  <input type="email" name="email" placeholder="Votre email" required>
+  <textarea name="message" placeholder="Votre message" rows="5" required></textarea>
+       <button type="submit">Envoyer</button>
     </form>
   </section>
 
