@@ -148,3 +148,9 @@ footer {
   padding: 30px 10px;
   font-size: 14px;
 }
+.orange-bar {
+  height: 10px;
+  background-color: #fca311;
+  width: 100%;
+  margin-top: 10px;
+}
