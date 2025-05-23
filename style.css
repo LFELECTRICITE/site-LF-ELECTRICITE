@@ -154,3 +154,18 @@ footer {
   width: 100%;
   margin-top: 10px;
 }
+.btn-orange {
+  background-color: #f4a024;
+  color: #fff;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  display: inline-block;
+  transition: background 0.3s ease;
+}
+
+.btn-orange:hover {
+  background-color: #e48f0f;
+}
